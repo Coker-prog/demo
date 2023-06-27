@@ -1,0 +1,68 @@
+*{
+margin: 0%;
+box-sizing: border-box;
+padding: 0%;
+}
+
+.navigation, .hover{
+    text-decoration: none;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: floralwhite;
+}
+.logo{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+#heading1{
+    color: floralwhite;
+}
+.store{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+h4.notice{
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+header{
+    display: flex;
+    color: floralwhite;
+    background-color: gray;
+    padding-left: 30px;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-color: rgb(0, 0, 161);
+    border-top-left-radius: 6px;
+}
+th, td{
+    border: 1px solid black;
+    border-color: rgb(0, 0, 161);
+    border-top-left-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: large;
+}
+td{
+    font-family: serif;
+    font-size: larger;
+    font-weight: bold;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
